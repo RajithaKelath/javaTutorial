@@ -16,3 +16,23 @@ public class Main {
  3. Below are the naming convention for Class and Method
     classes - PascalNamingConvention
     Method -  camelNamingConvention
+
+4. Package -> Class -> Methods.
+    Packages should always end with semicolon.
+    
+5. Complier & Execution
+    Complier : Java Compiler convert the source code(*.java) into Byte code(*.class)
+               Java virtual Machine(JVM) convert the Byte code into Native code(Window,Mac,Linux..) can understand, that is why it is platform independent.
+               
+6. We need to import the class if its available in different package,
+    ##import java.util.Date;
+
+7. Prmitive and Reference:
+    Primitive - Primitive type don't have members. Will use primitive typr for storing simple value.
+                (byte,short,int,long,float,double,char,boolean)
+    Reference - Reference as members which we can call using dot operator. Will use Reference for storing complex objects.
+                Date currentDate = new Date()
+                currentDate.getTime()
+8. Obect is an instance of Class - Class:Shapes Object:Circle,Rectangle,Square... Objects have members we can access using class operator.
+
+9. Backslach is used to escape charaters.

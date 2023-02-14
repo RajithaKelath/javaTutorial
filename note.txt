@@ -1,1 +1,18 @@
-java notes
+java notes:
+
+1. For cloning the GIT repository in local folder, Open terminal, go to the specified folder and ru the below command.
+git clone "repository URL"
+
+2. Function - Is used to do particular task.
+Java should contain one Main class inside which main function is present. Class is like an container for related Methods.
+Funcation inside Class is called Method.
+
+public class Main {
+  public void main() {
+    ...
+  }
+ }
+ 
+ 3. Below are the naming convention for Class and Method
+    classes - PascalNamingConvention
+    Method -  camelNamingConvention
